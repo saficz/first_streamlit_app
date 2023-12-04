@@ -42,7 +42,7 @@ try:
         streamlit.dataframe(back_from_function)
 
 except: URLError as e:
-  streamlit.error()
+      streamlit.error()
 
 #do not run in case of issues
 streamlit.stop()
